@@ -59,6 +59,10 @@
 #include <sys/stat.h>
 #include <sys/types.h>
 
+#ifdef __QNX__
+#include <sys/time.h>
+#endif
+
 #include <memory>
 #include <sstream>
 

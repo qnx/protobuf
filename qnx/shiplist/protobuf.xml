@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shiplist>
+    <id>com.qnx.${baselineId}.osr.protobuf</id>
+    <version>3.19.6</version>
+    <name>protobuf</name>
+    <category>OSR</category>
+    <property key="product">Prebuilt Open Source Packages</property>
+    <property key="f.swtype" value="III"/>
+    <property key="useInfo" value="false"/>
+    <property key="runtime" value="true"/>
+    <packageType>component</packageType>
+    <description>Protocol Buffers - Google's data interchange format</description>
+    <asset dest="${targetfolder}/[ARCH:x86_64,aarch64le]/usr/local/include/google/"/>
+    <asset dest="${targetfolder}/[ARCH:x86_64,aarch64le]/usr/local/lib/"/>
+    <asset dest="${targetfolder}/[ARCH:x86_64,aarch64le]/usr/local/bin/protoc"/>
+    <asset dest="${targetfolder}/[ARCH:x86_64,aarch64le]/usr/local/bin/protoc-3.19.6.0"/>
+</shiplist>

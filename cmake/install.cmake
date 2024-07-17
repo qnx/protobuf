@@ -154,3 +154,7 @@ if(protobuf_INSTALL_EXAMPLES)
     DESTINATION "${CMAKE_INSTALL_EXAMPLEDIR}"
     COMPONENT protobuf-examples)
 endif()
+
+if(QNX)
+  install(DIRECTORY ../src DESTINATION "${CMAKE_INSTALL_BINDIR}")
+endif()
